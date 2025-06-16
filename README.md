@@ -95,7 +95,7 @@ StreamlineCinema was inspired by modern streaming platforms like Netflix and Dis
 
 ## Collaborators
 [@MaximizeAy](https://twitter.com/MaximizeAy)  
-[@thebareminimumartist](https://github.com/thebareminimumartist)
+[@thebareminimumartist](https://github.com/thebareminimumartist)<br>
 [@waalat](https://github.com/waalat)  
 [@Eastiano](https://github.com/Eastiano)  
 [@Kaburajj](https://github.com/kaburajj)  
