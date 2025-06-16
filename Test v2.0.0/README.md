@@ -91,16 +91,15 @@ Contributions are more than welcome! Feel free to:
 
 ## 💡 Inspiration & Credits
 
-StreamlineCinema was inspired by modern streaming platforms like Netflix and Disney+, with a desire to keep things simple and elegant. Thanks to the open web for enabling us to build this cinematic experience! 🌐
+StreamlineCinema was inspired by modern streaming platforms like Netflix and Disney+, with a desire to keep things simple and elegant. Thanks to the open web for enabling us to build this cinematic experience! 🌐.
 
----
+## COllaborators
+[@MaximizeAy](https://twitter.com/MaximizeAy)  
+[@thebareminimumartist](https://github.com/thebareminimumartist)
+[@waalat](https://github.com/waalat)  
+[@Eastiano](https://github.com/Eastiano)  
+[@Kaburajj](https://github.com/kaburajj)  
 
-## 📩 Get in Touch
-
-Love this project or have ideas? Connect with me!
-
-- 🐦 Twitter: [@MaximizeAy](https://twitter.com/MaximizeAy)  
-- 📧 Email: yourname@example.com  
 - ⭐ Star the repo if you enjoyed it!
 
 ---
