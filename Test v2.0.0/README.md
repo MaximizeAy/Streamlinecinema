@@ -93,7 +93,7 @@ Contributions are more than welcome! Feel free to:
 
 StreamlineCinema was inspired by modern streaming platforms like Netflix and Disney+, with a desire to keep things simple and elegant. Thanks to the open web for enabling us to build this cinematic experience! 🌐.
 
-## COllaborators
+## Collaborators
 [@MaximizeAy](https://twitter.com/MaximizeAy)  
 [@thebareminimumartist](https://github.com/thebareminimumartist)
 [@waalat](https://github.com/waalat)  
