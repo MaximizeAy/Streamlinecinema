@@ -29,6 +29,126 @@
       margin: 0;
       overflow-x: hidden;
     }
+/* Bootstrap like behavioural css */
+/* Container */
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.col-lg-6, .col-lg-7, .col-lg-5, .col-md-6 {
+  flex: 0 0 auto;
+  padding: 15px;
+}
+.col-lg-6 { width: 50%; }
+.col-lg-7 { width: 58.3333%; }
+.col-lg-5 { width: 41.6667%; }
+.col-md-6 { width: 50%; }
+
+/* Navbar */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.nav-item {
+  margin: 0 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #1655c9;
+  text-decoration: underline;
+}
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 6px 0;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-item {
+  display: block;
+  padding: 8px 16px;
+  color: #333;
+  text-decoration: none;
+}
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn.custom-btn {
+  background-color: #1655c9;
+  color: #fff;
+}
+
+/* Form controls */
+.form-control {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Responsive collapse */
+.collapse {
+  display: none;
+}
+.collapse.show {
+  display: block;
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-collapse.show {
+    display: block;
+  }
+}
 
     /* Header CSS Start */
     .header-bar {
