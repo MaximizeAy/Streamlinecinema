@@ -1,3 +1,8 @@
+function toggleMenu() {
+  const nav = document.querySelector('.navbar-collapse');
+  nav.classList.toggle('show');
+}
+
 function toggleBlog(btn, id) {
 const content = document.getElementById(id);
 content.classList.toggle('expanded');

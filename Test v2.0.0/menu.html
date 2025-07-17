@@ -4,38 +4,22 @@
     <meta charset="utf-8" />
     <title>Movies</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700"
-      rel="stylesheet"
-    />
-
-    <!-- CSS Librlaries -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
    
 
     <!-- stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="style2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
     <body>
- <!-- Nav Bar Start --> 
+<!-- Nav Bar Start --> 
       <div class="container-fluid">
-        <span class="navbar-toggler-icon"></span>
 
       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-        <div class="navbar-nav ml-auto">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
+        <div class="navbar-nav nav-scroll">
+          <a href="index.html" class="nav-item nav-link">Home</a>
           <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="menu.html" class="nav-item nav-link">Movies</a>
+          <a href="menu.html" class="nav-item nav-link active">Movies</a>
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Trending</a>
             <div class="dropdown-menu">
@@ -52,8 +36,11 @@
         <div class="header-bar">
           <button class="menu-button navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
             onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
-          <a href="index.html" class="navbar-brand">
-                  <h1><img src="img/3.png" alt="" style="height: 40px; width: 40px; border-radius: 25px; margin-right: 12px;">Streamline Cinema</h1>
+          <br>
+            <a href="index.html" >
+            <section>
+              <h1><img src="img/3.png" alt="" style="height: 40px; width: 40px; border-radius: 25px; margin-right: 12px;">Streamline Cinema</h1>
+            </section>
           </a>
         </div>
     <!-- Page Header End -->
@@ -63,6 +50,8 @@
             <div class="gradient g2"></div>
             <div class="gradient g3"></div>
         </div>
+
+
         <!-- Movies Start -->
     <div class="service">
       <div class="container">
@@ -267,7 +256,6 @@
                             </p>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
-                                <button class="btn custom-btn">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -285,12 +273,12 @@
       
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     
     <!-- Favicon -->
     <script src="https://kit.fontawesome.com/9262faa8c6.js" crossorigin="anonymous"></script>
 
     <!--  Javascript -->
     <script src="js/main.js"></script>
+    
     </body>
 </html>
